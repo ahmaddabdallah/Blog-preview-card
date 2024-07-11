@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* fonts from folder */
+@font-face {
+    font-family: "Figtree_bold";
+    src: url(fonts/static/Figtree-ExtraBold.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Figtree_variable";
+    src: url(fonts/Figtree-VariableFont_wght.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Figtree_semi-bold";
+    src: url(fonts/static/Figtree-SemiBold.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Figtree_Extra-Bold";
+    src: url(fonts/static/Figtree-ExtraBold.ttf) format("truetype");
+}
+
+/* body */
+
+body{
+    background-color: #dbdb31d1;
+    height: 100vh;
+    width: 100%;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    height: 522px;
+    width: 384px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 2px solid #333;
+    box-shadow: 8px 5px 22px #333;
+}
+
+/* main image */
+
+.image img{
+    width: 336px;
+    height: 200px;
+    padding: 20px;
+    border-radius: 35px;
+}
+
+/* text content */
+.text{
+    width: 336px;
+    height: 194px;
+    background-color: #f3f3f396;
+    margin: 0 0 0 20px;
+    border-radius: 10px;
+}
+
+/* button => learning */
+
+.btns{
+    color: black;
+    background-color: #ffff36d2;
+    /* border: none; */
+    border: 1px solid #f3f3f3;
+    text-align: center;
+    width: 82px;
+    height: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 2px;
+    margin: 0 0 10px 0;
+    font-family: "Figtree_semi-bold";
+    cursor: pointer;
+    transition: 0.5s ease all;
+}
+
+.btns:hover{
+    /* background-color: #f3f3f3; */
+    transform: scale(1.1);
+}
+
+.btns:active{
+    transform: scale(0.9);
+}
+
+/* Published in 21 Dec 2023 */
+.date{
+    font-family: "Figtree_bold";
+    font-size: 16px;
+    padding: 2px;
+    margin: 0 0 10px 0;
+}
+
+/* HTML and CSS fundamental structures */
+.fund{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Figtree_Extra-Bold";
+    margin: 0  0 15px 0;
+}
+
+.fund:hover{
+    color: #0dc645d6;
+    cursor: pointer;
+}
+
+/* These languages are the backbone of every website, defining structure */
+.cont{
+    font-family: "Figtree_variable";
+    font-weight: 600;
+    font-size: 16px;
+    color: gray;
+}
+
+/* bottom content */
+.profile{
+    width: 150px;
+    height: 23px;
+    margin: 0 0 0 20px;
+    display: flex;
+    margin: 25px 0 0 0;
+    justify-content: center;
+    align-items: center;
+}
+
+/* image bottom */
+.profile img{
+    width: 32px;
+    height: 32px;
+    padding: 0 0 0 10px;
+    margin: 0 15px 0 0;
+}
+
+/* Name ::content */
+.profile .name{
+    font-size: 17px;
+    font-family: "Figtree_bold";
+}
